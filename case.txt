@@ -1,0 +1,42 @@
+Merhaba, 
+
+Öncelikler seni tanıdığımız için oldukça heyecanlı olduğumuzu bilmeni isteriz.
+
+Umarız SSTTEK ailesi olarak hayallerimizi, hedeflerimizi, çalışma metotlarımızı sana doğru bir şekilde anlatmayı ve kendimizi ifade etmeyi başarabilmişizdir. Biz hedeflerimize emin adımlarla ilerleyip hayallerimizi gerçekleştirirken senin de bizimle çalışmanı, birlikte başarmayı ve hayallerimizi beraber gerçekleştirmeyi çok isteriz.
+
+Seni daha iyi tanımak, değerlendirmek ve yeteneklerini keşfedebilmek için senden aşağıdaki görev veya görevleri yerine getirmeni rica ediyoruz.
+
+Senaryo
+
+A firması bir E-Ticaret yazılımı geliştirmiş ve müşterilerine bunu pazarlamak istemiştir. Müşteriler ürünü ancak Cimri, N11, Google ve Facebook ile entegre çalışması koşulu ile satın alabileceklerini iletmişlerdir. Yazılım firması bunu karşılayacak geliştirmeyi yapmak istemiş ancak her platformun farklı veri formatı ile çalıştıklarını görmüştür.
+
+Cimri verileri JSON ve XML formatlarında kabul etmektedir.
+N11 verileri JSON ve CSV formatlarında kabul etmektedir.
+Google verileri JSON formatında kabul etmektedir.
+Facebook verileri JSON, XML ve CSV formatlarında kabul etmektedir.
+
+Görev
+
+Her platformun istediği veri formatlarının çıktısını üreten mimari geliştirilmelidir.
+Mimari genişletilebilir olmalıdır. 
+Sisteme yeni bir platform kolayca eklenebilmelidir.
+Her bir platform için yeni bir veri formatı kolayca eklenebilmelidir.
+
+Prosedür
+
+Bu görev için bir github reposu açılmalı ve görev tamamlandığında bizimle paylaşılmalıdır.
+Görevin tamamlanacağı dil PHP8.1 olmalıdır.
+Görevin tamamlanacağı Framework Laravel 9 olmalıdır.
+Kodlama standartlarına ve optimizasyonuna dikkat edilmelidir.
+Görev geliştirmesi Docker üzerinde ayağa kaldırılmalıdır.
+Eğer veritabanı kullanılmış ise DB şeması ayrıca SQL dosyası olarak verilmelidir.
+
+Bonus
+
+Eğer yazılım çıktısı Api ile üretilecek ise Postman Collection veya Swagger-ui
+Unit Test
+Readme File
+
+Eğer görevde net olmayan noktalar olduğunu düşünüyorsan, lütfen iletişime geçmekten çekinme
+
+Başarılar…
