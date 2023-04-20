@@ -17,5 +17,5 @@ use App\Http\Controllers\ProductExporterController;
 Route::controller(ProductExporterController::class)->group(function () {
     Route::get('/', 'api')->name('apiHome');
     Route::get('/products', 'products')->name('productList');
-    Route::get('/products/export', 'exportProducts')->name('exportProducts');
+    Route::post('/products/export', 'exportProducts')->name('exportProducts');
 });
