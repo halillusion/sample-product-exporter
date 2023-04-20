@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "b24d6983-60c1-4ba0-ae39-69a90ea6817f",
+		"name": "Sample Product Exporter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13190427"
+	},
+	"item": [
+		{
+			"name": "Product List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product Export",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "platform",
+							"value": "cimri",
+							"description": "facebook, google, cimri, n11",
+							"type": "text"
+						},
+						{
+							"key": "format",
+							"value": "xml",
+							"description": "json, xml, csv",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/products/export",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"products",
+						"export"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
